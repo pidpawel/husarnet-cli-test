@@ -1,0 +1,12 @@
+schema {
+  query: Query
+}
+
+type NetworkType {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  allNetworks: [NetworkType]
+}
